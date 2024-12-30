@@ -1,0 +1,92 @@
+button.contact-btn{
+	width:150px ;
+	height:50px;
+	font-size:15px ;
+	border:none ;
+	text-transform:capitalise ;
+	background:linear-gradient(45deg,#bdbdbd,#4fc3f7,#0277bd);
+	font-weight:600 ;
+	color:#fff;
+
+}
+
+button.contact-btn:hover{
+	background:linear-gradient(45deg,#0277bd,#bdbdbd,#4fc3f7);
+}
+
+h3{
+	text-align:center;
+	
+/*	padding-top:0px;*/
+}
+
+.text{
+	padding-top:30px;
+}
+
+.portfolio.card{
+	box-shadow:15px 15px 40px rgba(0,0,0,0.15);
+}
+.to_top.show {
+    position: fixed;
+    z-index: 9999;
+    bottom: 30px;
+    right: -50px;
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+    background: var(--color-main-grad);
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    padding: 7px;
+    line-height: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-box-shadow: 0 5px 10px #0002;
+    box-shadow: 0 5px 10px #0002;
+}
+
+.body{
+    font-size:40px ;
+}
+
+.about-us{
+    border: 2px solid red;
+    height: 500px;
+    width: 100%;
+}
+
+.my-button{
+    box-shadow: 20px 0 80px white , -25px 0 80px #ed2020;
+    
+}
+
+.annkur{
+    width:800px ;
+}
+
+.sticky{
+/*    position: -webkit-sticky !important;*/
+    position: sticky !important;
+    top: 0;
+    font-size: 20px;
+
+}
+
+.n{
+    text-decoration:underline;
+    font-weight:900;
+    font-size:40px ;
+    text-transform:capitalize;
+    color:#1e97a1;
+    text-align:left;
+}
+
+.con{
+    margin-top:100px;
+
+}
+
